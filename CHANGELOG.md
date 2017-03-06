@@ -4,13 +4,12 @@
 ## v2.3 - (05 MARCH 17)
 
 #### Additions
-`+` Added separate individual sections for Stylish and Stylus
-`+` Added Ubuntu font to stack **(Stylus)**
-`+` Added Ubuntu font to stack **(Stylus)**
+`+` Added separate individual sections for Stylish and Stylus  
+`+` Added Ubuntu font to stack **(Stylus)**  
 
 #### Changes
-`+` Changed color scheme for headings, buttons and form items
-`+` Pulled Stylish specific styles from global section into Stylish section
+`+` Changed color scheme for headings, buttons and form items  
+`+` Pulled Stylish specific styles from global section into Stylish section  
 
 #### Fixed
 `+` Fixed
