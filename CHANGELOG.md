@@ -6,13 +6,27 @@
 #### Additions
 `+` Added separate individual sections for Stylish and Stylus  
 `+` Added Ubuntu font to stack **(Stylus)**  
+`+` Added responsive css for 1024px screens  
+`+` Added  
+`+` Added  
+`+` Added  
+`+` Added  
 
 #### Changes
-`+` Changed color scheme for headings, buttons and form items  
+`+` Changed color scheme for headings, buttons and form items **(Stylus)**  
 `+` Pulled Stylish specific styles from global section into Stylish section  
+`+` Changed help popup layout and overlay  
+`+` Changed input textbox styling  
+`+` Changed background on gutter in CodeMirror   
 
 #### Fixed
-`+` Fixed
+`+` Fixed scrollbar issue on sidebar  
+`+` Fixed sidebar button flow when scrollbar is active  
+`+` Fixed code issues in global css  
+`+` Fixed button margins for modified sidebar  
+`+` Fixed  
+`+` Fixed  
+`+` Fixed  
 
 ## v2.2 - (2017-02-02)
 
