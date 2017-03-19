@@ -18,12 +18,15 @@
 `+` Changed help popup layout and overlay  
 `+` Changed input textbox styling  
 `+` Changed background on gutter in CodeMirror   
+`+` Restyled stylesheet title input and applies-to inputs  
+`+` Changed section tab font color (more visible)  
 
 #### Fixed
 `+` Fixed scrollbar issue on sidebar  
 `+` Fixed sidebar button flow when scrollbar is active  
 `+` Fixed code issues in global css  
 `+` Fixed button margins for modified sidebar  
+`+` Fixed button margins for applies-to section   
 `+` Fixed  
 `+` Fixed  
 `+` Fixed  
