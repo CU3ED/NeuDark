@@ -6,10 +6,9 @@
 #### Additions
 `+` Added separate individual sections for Stylish and Stylus  
 `+` Added Ubuntu font to stack **(Stylus)**  
-`+` Added responsive CSS for 1024px screens  
-`+` Added  
-`+` Added  
-`+` Added  
+`+` Added responsive CSS for half-screen development  
+`+` Added icon buttons to manage section  
+`+` Added more visible section change (red asterisk)  
 `+` Added  
 
 #### Changes
@@ -20,6 +19,8 @@
 `+` Changed background on gutter in CodeMirror   
 `+` Restyled stylesheet title input and applies-to inputs  
 `+` Changed section tab font color (more visible)  
+`+` Changed linting layout  
+`+` Changed layout position of manage buttons  
 
 #### Fixed
 `+` Fixed scrollbar issue on sidebar  
