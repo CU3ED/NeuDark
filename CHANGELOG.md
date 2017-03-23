@@ -4,14 +4,14 @@
 ## v2.5
 	Updated on March 22, 2017
 
-#### Additions
+### Additions
 `+` Added basic link styling for both platforms  
 
-#### Changes
+### Changes
 `+` Changed position of "Apply All Updates" button on manage page   
 `+` Changed position of applied updates message on manage page   
 
-#### Fixed
+### Fixed
 `+` Fixed  
 
 ## v2.4
