@@ -1,8 +1,9 @@
 # NeuDark
-**neuDark** is a Stylish and Stylus Admin CSS theme.
+**neuDark** is an eye-saver modification of the Stylish and Stylus Admin interface for Chrome. The interface is completely re-designed for a dark experience, incorporating Font Awesome icons and a semi-material theme. **NeuDark** currently supports all of the dark syntax themes shipped with both platforms and will support light-to-dark theme conversions in the future. If you enjoy this theme please consider [buying me a beer][1].
 
-## v2.5
-	Updated on March 22, 2017
+---
+
+## v2.5 ... (22 MARCH 17)
 
 ### Additions
 `+` Added basic link styling for both platforms  
@@ -11,64 +12,63 @@
 `+` Changed position of "Apply All Updates" button on manage page   
 `+` Changed position of applied updates message on manage page   
 
-### Fixed
+### Fixes
 `+` Fixed  
 
-## v2.4
-	14 MARCH 17
+## v2.4 ... (14 MARCH 17)
 
-#### Additions
+### Additions
 `+` Added responsive CSS for half-screen development  
 `+` Added icon buttons to manage page section  
 
-#### Changes
+### Changes
 `+` Changed background on gutter in CodeMirror   
 `+` Restyled stylesheet title input and applies-to inputs  
 `+` Changed section tab font color (more visible)  
 `+` Changed linting layout  
 `+` Changed layout position of manage page buttons  
 
-#### Fixed
+### Fixes
 `+` Fixed scrollbar issue on sidebar  
 `+` Fixed sidebar button flow when scrollbar is active  
 
-## v2.3 - (05 MARCH 17)
+## v2.3 ... (05 MARCH 17)
 
-#### Additions
+### Additions
 `+` Added separate individual sections for Stylish and Stylus  
 `+` Added Ubuntu font to stack **(Stylus)**  
 `+` Added more visible status on section change (red asterisk)  
 
-#### Changes
+### Changes
 `+` Changed color scheme for headings, buttons and form items **(Stylus)**  
 `+` Pulled Stylish specific styles from global section into Stylish section  
 `+` Changed help popup layout and overlay  
 `+` Changed input textbox styling  
 
-#### Fixed
+### Fixes
 `+` Fixed code issues in global css  
 `+` Fixed button margins for modified sidebar  
 `+` Fixed button margins for applies-to section   
 
-## v2.2 - (02 FEB 17)
+## v2.2 ... (02 FEBRUARY 17)
 
-#### Additions
+### Additions
 `+` Added support for newest stylish version (1.7.2)  
 `+` Added support for Stylus extension for Chrome  
 
-#### Fixed
+### Fixed
 `+` Fixed help icons reverting to old ugly images  
 `+` Fixed help icons positioning on sections, mozilla and lint areas  
 `+` Fixed help icons hover not showing on latest version  
 
-## v2.1 - (2017-01-09)
+## v2.1 ... (09 JANUARY 17)
 
-#### Fixed
+### Fixes
 `+` Fixed some syntax highlighting issues  
 
-## v2.oh - (2016-10-11)
+## v2.oh ... (11 OCTOBER 16)
 
-#### Additions
+### Additions
 `+` Added Font Awesome integration  
 `+` Added Google Fonts for default text and headings  
 `+` Added new icons for save, beautify, back to manage page, import/export and add/remove  
@@ -77,7 +77,7 @@
 `+` Added styling to info modals  
 `+` Added styling to CodeMirror editor elements  
 
-#### Changes
+### Changes
 `+` Changed color scheme for headings, buttons and form items  
 `+` Increased sidebar width and padding  
 `+` Center aligned sidebar titling  
@@ -92,15 +92,17 @@
 `+` Changed padding between installed styles  
 `+` Changed disabled styles coloring  
 
-#### Fixed
+### Fixes
 `+` Fixed all help icons not showing/disabled  
 `+` Fixed layout of installed styles list  
 
-#### Removed
+### Removed
 `-` Removed right margin on selected project name span  
 `-` Removed italic font style from all note areas  
 `-` Removed un-used lines of code  
 
-## v1.oh - (2015-09-29)
+## v1.oh ... (29 SEPTEMBER 15)
 
-#### Initial Release
+### Initial Release
+
+[1]: https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f33adeea484ce&mfid=1490249220021_c1569ea2db8da#/checkout/openButton
