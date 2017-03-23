@@ -1,38 +1,56 @@
 # NeuDark
-**neuDark** is a Stylish Admin CSS theme.
+**neuDark** is a Stylish and Stylus Admin CSS theme.
+
+## v2.5
+	Updated on March 22, 2017
+
+#### Additions
+`+` Added basic link styling for both platforms  
+
+#### Changes
+`+` Changed position of "Apply All Updates" button on manage page   
+`+` Changed position of applied updates message on manage page   
+
+#### Fixed
+`+` Fixed  
+
+## v2.4
+	14 MARCH 17
+
+#### Additions
+`+` Added responsive CSS for half-screen development  
+`+` Added icon buttons to manage page section  
+
+#### Changes
+`+` Changed background on gutter in CodeMirror   
+`+` Restyled stylesheet title input and applies-to inputs  
+`+` Changed section tab font color (more visible)  
+`+` Changed linting layout  
+`+` Changed layout position of manage page buttons  
+
+#### Fixed
+`+` Fixed scrollbar issue on sidebar  
+`+` Fixed sidebar button flow when scrollbar is active  
 
 ## v2.3 - (05 MARCH 17)
 
 #### Additions
 `+` Added separate individual sections for Stylish and Stylus  
 `+` Added Ubuntu font to stack **(Stylus)**  
-`+` Added responsive CSS for half-screen development  
-`+` Added icon buttons to manage section  
-`+` Added more visible section change (red asterisk)  
-`+` Added  
+`+` Added more visible status on section change (red asterisk)  
 
 #### Changes
 `+` Changed color scheme for headings, buttons and form items **(Stylus)**  
 `+` Pulled Stylish specific styles from global section into Stylish section  
 `+` Changed help popup layout and overlay  
 `+` Changed input textbox styling  
-`+` Changed background on gutter in CodeMirror   
-`+` Restyled stylesheet title input and applies-to inputs  
-`+` Changed section tab font color (more visible)  
-`+` Changed linting layout  
-`+` Changed layout position of manage buttons  
 
 #### Fixed
-`+` Fixed scrollbar issue on sidebar  
-`+` Fixed sidebar button flow when scrollbar is active  
 `+` Fixed code issues in global css  
 `+` Fixed button margins for modified sidebar  
 `+` Fixed button margins for applies-to section   
-`+` Fixed  
-`+` Fixed  
-`+` Fixed  
 
-## v2.2 - (2017-02-02)
+## v2.2 - (02 FEB 17)
 
 #### Additions
 `+` Added support for newest stylish version (1.7.2)  
@@ -53,7 +71,7 @@
 #### Additions
 `+` Added Font Awesome integration  
 `+` Added Google Fonts for default text and headings  
-`+` Added new icons for save, beautify, back to manage, import/export and add/remove  
+`+` Added new icons for save, beautify, back to manage page, import/export and add/remove  
 `+` Added "Stylish" title header to sidebar  
 `+` Added checkbox animations  
 `+` Added styling to info modals  
@@ -66,7 +84,7 @@
 `+` Restyled all textbox inputs  
 `+` Restyled all select dropdowns  
 `+` Changed checkbox icons  
-`+` Changed save, beautify, back to manage to icon buttons without text  
+`+` Changed save, beautify, back to manage page to icon buttons without text  
 `+` Replaced help/info images with base64 equivalents  
 `+` Changed font-size on all headings  
 `+` Changed options layout for tab size, keymap and editor theme  
