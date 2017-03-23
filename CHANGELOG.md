@@ -11,9 +11,10 @@
 ### Changes
 `+` Changed position of "Apply All Updates" button on manage page   
 `+` Changed position of applied updates message on manage page   
+`+` Changed action buttons to icon buttons in installed list   
 
 ### Fixes
-`+` Fixed  
+`+` Fixed broken manage sidebar layout for Stylus  
 
 ## v2.4 ... (14 MARCH 17)
 
