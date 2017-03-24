@@ -1,7 +1,5 @@
 # NeuDark Changelog
 
----
-
 ## v2.5 ... (24 MARCH 17)
 
 ### Additions
