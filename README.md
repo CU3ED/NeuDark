@@ -11,6 +11,7 @@
 ![Stylus Manage](/screenshots/NeuDark-Stylus-manage.png?raw=true "Manage Window")
 ![Stylus Edit](/screenshots/NeuDark-Stylus-edit.png?raw=true "Edit Window")
 ![Stylus Modal](/screenshots/NeuDark-Stylus-modal.png?raw=true "Modal Window")
+![Stylus Popup](/screenshots/NeuDark-Stylus-popup.png?raw=true "Popup Window")
 
 ## Installation
 Currently, NeuDark can be installed using the Stylish or Stylus Chrome extensions.  
