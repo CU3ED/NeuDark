@@ -4,15 +4,18 @@
 
 ### Additions
 `+` Added basic link styling for both platforms  
-`+` Added icon buttons for More Options **(Stylus)**   
+`+` Added icon buttons for More Options on manage **(Stylus)**   
+`+` Added icon buttons on popup **(Stylus)**   
 
 ### Changes
 `+` Changed position of "Apply All Updates" button on manage page   
 `+` Changed position of applied updates message on manage page   
 `+` Changed action buttons to icon buttons in installed list   
+`+` Cleaned up layout of main popup window **(Stylus)**     
 
 ### Fixes
 `+` Fixed broken manage sidebar layout for Stylus  
+`+` Fixed broken layout of main popup window  
 
 ## v2.4 ... (13 MARCH 17)
 
