@@ -1,11 +1,12 @@
 # NeuDark Changelog
 
-## v2.5 ... (24 MARCH 17)
+## v2.5 ... (31 MARCH 17)
 
 ### Additions
 `+` Added basic link styling for both platforms  
 `+` Added icon buttons for More Options on manage **(Stylus)**   
 `+` Added icon buttons on popup **(Stylus)**   
+`+` Added styling for all scenarios in popup window (tentative)   
 
 ### Changes
 `+` Changed position of "Apply All Updates" button on manage page   
