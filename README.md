@@ -6,6 +6,8 @@
 ![neudark-stylish-edit](https://cloud.githubusercontent.com/assets/61343/24485760/b7c26cbc-14c3-11e7-87c9-dea5c29060c3.png)
 ![neudark-stylish-manage](https://cloud.githubusercontent.com/assets/61343/24485762/b7c87954-14c3-11e7-8bb0-04746adfbd13.png)
 ![neudark-stylish-modal](https://cloud.githubusercontent.com/assets/61343/24485761/b7c561d8-14c3-11e7-80b4-a3e045902602.png)
+![neudark-stylish-popup](https://cloud.githubusercontent.com/assets/61343/24539968/4d865f0c-15ae-11e7-8ff3-c631abbbea21.png)
+![neudark-stylish-popup-nostyle](https://cloud.githubusercontent.com/assets/61343/24539969/4d87f132-15ae-11e7-9ba4-b9cd4679002e.png)
 
 
 #### Screenshots (Stylus)
@@ -13,6 +15,8 @@
 ![neudark-stylus-manage](https://cloud.githubusercontent.com/assets/61343/24485777/bf3f9e60-14c3-11e7-9bfa-086a12048231.png)
 ![neudark-stylus-modal](https://cloud.githubusercontent.com/assets/61343/24485779/bf549234-14c3-11e7-8b05-f7236b2dc1e8.png)
 ![neudark-stylus-popup](https://cloud.githubusercontent.com/assets/61343/24485778/bf529aa6-14c3-11e7-99ac-3fbb04908e7e.png)
+![neudark-stylus-popup-del](https://cloud.githubusercontent.com/assets/61343/24539967/4d82935e-15ae-11e7-844e-3279c6a30b88.png)
+![neudark-stylus-popup-disabled](https://cloud.githubusercontent.com/assets/61343/24539970/4d8b3e1e-15ae-11e7-9608-d86ce29191eb.png)
 
 ## Installation
 Currently, NeuDark can be installed using the Stylish or Stylus Chrome extensions.  
