@@ -13,6 +13,7 @@
 `+` Changed position of applied updates message on manage page   
 `+` Changed action buttons to icon buttons in installed list   
 `+` Cleaned up layout of main popup window **(Stylus)**     
+`+` Updated Font Awesome to v4.7.0     
 
 ### Fixes
 `+` Fixed broken manage sidebar layout for Stylus  
