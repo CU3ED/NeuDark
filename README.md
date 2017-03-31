@@ -19,12 +19,14 @@
 ![neudark-stylus-popup-disabled](https://cloud.githubusercontent.com/assets/61343/24539970/4d8b3e1e-15ae-11e7-9608-d86ce29191eb.png)
 
 ## Installation
+### Latest Release v2.5
+
 Currently, NeuDark can be installed using the Stylish or Stylus Chrome extensions.  
 >**[Install Stylish][2]**  
 
 >**[Install Stylus][3]**  
 
-Once you have one of the extensions installed, go to https://userstyles.org/styles/119263/neudark-stylish to install NeuDark.  
+Once you have one of the extensions installed, go to https://userstyles.org/styles/119263/neudark-stylish to install NeuDark. It is highly recommended that you use **tommorow-night-bright** syntax theme in Stylish and **zenburn** in Stylus. These syntax themes match the stylesheet best. All syntax themes will be updated and supported on the next release.  
 
 If you enjoy this theme please consider [buying me a beer][1]. Thanks!
 
