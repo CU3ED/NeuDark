@@ -1,0 +1,281 @@
+/*=================================
+=          STYLUS STYLES          =
+=================================*/
+
+/* LOAD FONTS */
+
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'),local('Ubuntu-Light'),url(https://fonts.gstatic.com/s/ubuntu/v9/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu'),url(https://fonts.gstatic.com/s/ubuntu/v9/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'),local('Ubuntu-Medium'),url(https://fonts.gstatic.com/s/ubuntu/v9/OsJ2DjdpjqFRVUSto6IffFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'),local('Ubuntu-Bold'),url(https://fonts.gstatic.com/s/ubuntu/v9/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}
+
+a:hover,
+a:active {
+	border-bottom-color: #25F0ED;
+}
+
+#header h1 {
+	color: #DFAF8F;
+}
+
+#header h1:before {
+	margin: 5px 0 10px 0;
+	padding-bottom: 20px;
+	font-family: 'Ubuntu';
+	font-weight: 400 !important;
+	color: #25F0ED;
+	line-height: 1;
+	letter-spacing: -4px;
+	content: "{ s }";
+}
+
+#header h1:hover:before {
+	letter-spacing: 4px;
+	color: #25F0ED;
+}
+
+#basic-info-name a:hover::after,
+.style-name a:hover::after {
+	color: #DFAF8F;
+}
+
+input[type=checkbox]:after {
+	background: #25F0ED !important;
+}
+
+input[type=checkbox]:checked {
+	background-color: #25F0ED !important;
+}
+
+img[src="help.png"]:hover,
+img[src="images/help.png"]:hover {
+	background-color: #dfaf8f !important;
+}
+
+#sections > div > label {
+	color: #25F0ED;
+}
+
+.option.aligned input:focus,
+.option.aligned select:hover,
+.applies-to-list select:hover {
+	color: #25F0ED !important;
+}
+
+#help-popup .title {
+	color: #25F0ED;
+}
+
+button {
+	color: #DFAF8F;
+}
+
+button:hover {
+	background-color: #4E4540;
+}
+
+#cancel-button {
+	color: #DFAF8F;
+}
+
+#cancel-button:before {
+	color: #DFAF8F;
+}
+
+#cancel-button:hover {
+	background-color: #4E4540;
+}
+
+/* Manage */
+#stylus-manage #installed div.enabled h2.style-name {
+	color: #25F0ED;
+}
+
+#stylus-manage #installed div.disabled h2.style-name {
+	color: #FFF;
+}
+
+/* Popup */
+#stylus-popup {
+	min-width: 275px;
+}
+
+#stylus-popup #confirm {
+	background-color: rgba(16, 16, 16, 0.85);
+}
+
+#stylus-popup #confirm>div {
+	background-color: #2d2d2d;
+	border: 6px solid #272727;
+	outline: 1px solid #444;
+	position: relative;
+}
+
+#stylus-popup #confirm>div>b {
+	padding: 0;
+	position: absolute;
+	top: -42px;
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	font-weight: 400;
+	color: #25F0ED;
+}
+
+#stylus-popup #confirm input {
+	background: #333333;
+	padding: 8px 12px;
+	text-align: center;
+	border: 1px solid rgba(255, 255, 255, 0.1) !important;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	overflow: hidden;
+	outline: transparent !important;
+	-moz-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+	-o-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+	-webkit-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+	transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+}
+
+#stylus-popup #confirm input:hover {
+	background-color: #444;
+}
+
+#stylus-popup #unavailable,
+#stylus-popup #installed {
+	border-bottom: none;
+}
+
+#stylus-popup #unavailable {
+	margin: 0;
+	padding: 1.2em;
+}
+
+#stylus-popup #installed {
+	margin: 5px 1.2em 0 1.2em;
+	padding: 0 0 .5em;
+}
+
+#stylus-popup #installed .entry {
+	padding: .75em 0;
+}
+
+#stylus-popup #installed .entry.disabled .style-name {
+	color: #999;
+}
+
+#stylus-popup .left-gutter {
+	width: auto;
+}
+
+#stylus-popup #installed .main-controls {
+	width: calc(100% - 25px);
+}
+
+#stylus-popup #installed .main-controls label {
+	padding-right: 10px;
+	font-weight: 400;
+}
+
+#stylus-popup #installed .actions {
+	padding: 0;
+	height: 16px;
+}
+
+#stylus-popup #installed .actions a {
+	margin: 0 !important;
+	border: none !important;
+}
+
+#stylus-popup .svg-icon path,
+#stylus-popup .svg-icon polygon,
+#stylus-popup .svg-icon rect {
+	fill: #666;
+}
+
+#stylus-popup a:hover .svg-icon path,
+#stylus-popup a:hover .svg-icon polygon,
+#stylus-popup a:hover .svg-icon rect {
+	fill: #DFAF8F;
+}
+
+#stylus-popup .actions {
+	margin: 0 !important;
+	padding: 0 1.2em;
+	padding-bottom: calc(2.4em + 56px);
+}
+
+#stylus-popup .actions #disable-all-wrapper {
+	margin: 0px -1.2em 1.2em;
+	padding: 1.2em;
+	border-top: 1px solid rgba(255, 255, 255, 0.1) !important;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+	background: #333333;
+}
+
+#stylus-popup .actions .main-controls {
+	display: block;
+	margin-bottom: .25em;
+}
+
+#stylus-popup .actions #disable-all-wrapper .main-controls {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#stylus-popup .actions .main-controls #find-styles {
+	text-align: center;
+}
+
+#stylus-popup .actions .main-controls #write-style {
+	margin: 1.2em 0 0 0;
+	padding: 1.2em 0 0;
+	border-top: 1px solid #444;
+}
+
+#stylus-popup .actions .main-controls #write-style #write-style-for {
+	display: block;
+	margin: 0 0 .25em 0;
+	color: #999;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#popup-options {
+	padding: 0;
+	position: absolute;
+	width: calc(100% - 2.4em);
+	bottom: 1.2em;
+}
+
+.breadcrumbs.url\(\) > .write-style-link,.breadcrumbs > .write-style-link:hover,.breadcrumbs > .write-style-link:focus,.breadcrumbs > .write-style-link:hover ~ .write-style-link[subdomain],.breadcrumbs > .write-style-link:focus ~ .write-style-link[subdomain] {
+	text-decoration: none !important;
+}
+
+#popup-options button {
+	margin: 0 3px 0 0;
+	padding: 15px;
+}
+
+#popup-options button:last-child {
+	margin-right: 0 !important;
+}
+
+@media only screen and (max-width:350px) {
+
+	#popup-options button {
+		font-size: 0;
+	}
+
+}
+
+@media only screen and (min-width:351px) {
+
+	#popup-options button {
+		font-size: inherit;
+	}
+	#popup-options button:before {
+		display: none;
+	}
+
+}
