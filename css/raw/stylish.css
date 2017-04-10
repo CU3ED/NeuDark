@@ -82,6 +82,100 @@ button:hover {
 	background-color: #4e4940;
 }
 
+.CodeMirror-dialog-top {
+	border-color: #8BC34A;
+}
+.CodeMirror-dialog input {
+	color: #8BC34A;
+}
+@-moz-keyframes highlight {
+	from {
+		background-color: #8BC34A;
+	}
+	to {
+		background-color: inherit;
+	}
+}
+@-o-keyframes highlight {
+	from {
+		background-color: #8BC34A;
+	}
+	to {
+		background-color: inherit;
+	}
+}
+@-webkit-keyframes highlight {
+	from {
+		background-color: #8BC34A;
+	}
+	to {
+		background-color: inherit;
+	}
+}
+@keyframes highlight {
+	from {
+		background-color: #8BC34A;
+	}
+	to {
+		background-color: inherit;
+	}
+}
+.cm-searching {
+    background: rgba(139, 195, 74, 0.25);
+    border: 1px solid rgba(139, 195, 74, 0.5);
+    color: #8BC34A !important;
+}
+.CodeMirror-search-match {
+	background: #8BC34A;
+}
+
+/*-------- default syntax theme --------*/
+
+.cm-s-default {
+	color: #AAA;
+}
+.cm-s-default .cm-qualifier,
+.cm-s-default .cm-builtin,
+.cm-s-default .cm-def {
+	color: #CCC;
+}
+.cm-s-default .cm-punctuation,
+.cm-s-default .cm-property,
+.cm-s-default .cm-operator {
+	color: #D2BB8D;
+}
+.cm-s-default .cm-variable {
+	color: #4d772c;
+}
+.cm-s-default .cm-atom {
+	color: #8BC34A;
+}
+.cm-s-default .cm-keyword {
+	color: #F44336;
+}
+.cm-s-default .cm-string {
+    color: #ff9f7a;
+}
+.cm-s-default .cm-number {
+    color: #cce68e;
+    background: rgba(134, 240, 37, 0.1);
+}
+.cm-s-default .cm-tag {
+    color: #b19f7d;
+	background: rgba(153, 153, 153, 0.05);
+}
+.cm-s-default .cm-variable-3 {
+    color: #50b5ad;
+    background: rgba(143, 222, 218, 0.05);
+}
+.cm-s-default .cm-meta {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.05);
+}
+.cm-s-default .cm-attribute {
+    color: #dab751;
+}
+
 /* Manage */
 #stylish-manage #installed div.enabled h2.style-name {
 	color: #8BC34A;

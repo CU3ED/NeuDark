@@ -1,5 +1,24 @@
 # NeuDark Changelog
 
+## v2.6 ... (05 APRIL 17)
+
+### Additions
+`+` Added syntax theme dedicated code section     
+
+### Changes
+> **STYLISH**  
+
+`+` Changed search dialog and matches color scheme  
+`+` Restyled "default" syntax theme to match interface  
+
+> **STYLUS**  
+
+`+` Changed search dialog and matches color scheme  
+`+` Restyled "default" syntax theme to match interface  
+
+### Fixes
+`+` Fixed solarized syntax theme  
+
 ## v2.5 ... (31 MARCH 17)
 
 ### Additions

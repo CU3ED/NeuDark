@@ -951,8 +951,8 @@ span#issue-count {
     background-color: #272727;
 }
 .CodeMirror {
-	background: #202020 !important;
-    box-shadow: none !important;
+	background: #202020;
+  box-shadow: none !important;
 	line-height: 1.5em !important;
 	font-size: 12px !important;
 	height: 70%;
@@ -1062,7 +1062,7 @@ span#issue-count {
 	color: #666;
 }
 .CodeMirror .CodeMirror-lines .CodeMirror-cursor {
-	border-left: 1px solid #7991e8
+	border-left: 2px solid;
 }
 .CodeMirror-activeline, .CodeMirror-activeline-background {
 	background: rgba(24, 24, 24, 0.5) !important;
@@ -1082,52 +1082,17 @@ span#issue-count {
 	animation: highlight 500ms ease-out;
 }
 .CodeMirror-dialog-top {
-	border-top: 1px solid #d0a421;
+	border-top: 1px solid;
 	bottom: -1;
 	top: inherit;
 	background: #202020 !important;
 }
 .CodeMirror-dialog input {
-	color: #d0a421;
 	background: transparent !important;
-    box-shadow: none !important;
-}
-@-moz-keyframes highlight {
-	from {
-		background-color: #d0a421;
-	}
-	to {
-		background-color: inherit;
-	}
-}
-@-o-keyframes highlight {
-	from {
-		background-color: #d0a421;
-	}
-	to {
-		background-color: inherit;
-	}
-}
-@-webkit-keyframes highlight {
-	from {
-		background-color: #d0a421;
-	}
-	to {
-		background-color: inherit;
-	}
-}
-@keyframes highlight {
-	from {
-		background-color: #d0a421;
-	}
-	to {
-		background-color: inherit;
-	}
+  box-shadow: none !important;
 }
 .cm-searching {
-	background: rgba(255, 229, 0, 0.25);
 	padding: 2px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
 }
 ::-webkit-scrollbar {
 	width: 8px;
@@ -1149,7 +1114,6 @@ span#issue-count {
 	background: linear-gradient(-45deg, transparent 2px, #444 2px, transparent 3px, transparent 4.5px, #444 5px, transparent 5.5px);
 }
 .CodeMirror-search-match {
-	background: #d0a421;
     width: 6px !important;
     height: 1px !important;
     right: 1px !important;
