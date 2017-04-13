@@ -4,7 +4,25 @@
 
 /*-------- 3024-day --------*/
 
-.cm-s-3024-day.CodeMirror {
+.cm-s-3024-day {
+    color: #CCC;
+}
+
+/*-------- 3024-night --------*/
+
+.cm-s-3024-night {
+    background: #202020;
+}
+.cm-s-3024-night .CodeMirror-activeline-background {
+    background: inherit !important;
+}
+.cm-s-3024-night .CodeMirror-selected {
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+
+/*-------- ambiance-mobile --------*/
+
+.cm-s-ambiance-mobile {
     color: #CCC;
 }
 
