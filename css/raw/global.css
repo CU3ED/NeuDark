@@ -1092,7 +1092,17 @@ span#issue-count {
   box-shadow: none !important;
 }
 .cm-searching {
-	padding: 2px;
+	padding: 2px 0;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+}
+.cm-searching:first-child {
+	padding-left: 2px;
+    border-left-width: 1px !important;
+}
+.cm-searching:last-child {
+	padding-right: 2px;
+    border-right-width: 1px !important;
 }
 ::-webkit-scrollbar {
 	width: 8px;

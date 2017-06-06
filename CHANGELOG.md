@@ -1,6 +1,6 @@
 # NeuDark Changelog
 
-## v2.6 ... (05 APRIL 17)
+## v2.6 ... (05 JUNE 17)
 
 ### Additions
 `+` Added syntax theme dedicated code section     
@@ -18,6 +18,8 @@
 
 ### Fixes
 `+` Fixed solarized syntax theme  
+`+` Fixed search results padding    
+`+` Removed search results extra borders    
 
 ## v2.5 ... (31 MARCH 17)
 
