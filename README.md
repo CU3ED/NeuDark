@@ -30,6 +30,6 @@ Once you have one of the extensions installed, go to https://userstyles.org/styl
 
 If you enjoy this theme please consider [buying me a beer][1]. Thanks!
 
-[1]: https://www.paypal.com/webapps/shoppingcart?flowlogging_id=f33adeea484ce&mfid=1490249220021_c1569ea2db8da#/checkout/openButton
+[1]: https://www.paypal.me/incace
 [2]: https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe
 [3]: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
