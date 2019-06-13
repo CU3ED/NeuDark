@@ -8,10 +8,15 @@
 
 @font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}
 
+@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'),local('Ubuntu-Light'),url(https://fonts.gstatic.com/s/ubuntu/v9/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu'),url(https://fonts.gstatic.com/s/ubuntu/v9/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'),local('Ubuntu-Medium'),url(https://fonts.gstatic.com/s/ubuntu/v9/OsJ2DjdpjqFRVUSto6IffFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'),local('Ubuntu-Bold'),url(https://fonts.gstatic.com/s/ubuntu/v9/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}
+
 @font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:local('Source Code Pro'),local('SourceCodePro-Regular'),url(https://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2')}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:500;src:local('Source Code Pro Medium'),local('SourceCodePro-Medium'),url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUHj7CJK1I4bLnYZkMY-kd4.woff2) format('woff2')}
 
-body, button, span#update-history svg, #stylus-manage #search, #stylish-manage #search, #basic-info-name #name {
-	font-family: 'Open Sans', Helvetica, sans-serif;
+body,
+span#update-history svg,
+#stylus-manage #search,
+#basic-info-name #name {
+	font-family: 'Ubuntu', Helvetica, sans-serif;
 }
 
 #beautify:before, button.beautify-section:before {

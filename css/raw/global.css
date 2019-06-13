@@ -45,7 +45,6 @@ a:link, a:visited, #header h1, #header h1:before, #basic-info-name #name, img[sr
 	display: block;
 	margin: 10px 0 20px 0;
 	padding: 0;
-	border-bottom: 1px solid #444;
 }
 
 #filters.active {
@@ -116,26 +115,28 @@ fieldset label#onlyUpdates:after {
 }
 
 #basic-info-name {
-	display: flex;
-	align-items: center;
-  position: relative;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 #basic-info-name #name {
-  width: 100%;
-  height: auto;
-  box-shadow: inset 0 0 0 50px #444, 0 1px 5px 1px rgba(0, 0, 0, 0.15);
-  padding: 8px 34px 8px 10px;
-  font-size: 16px;
-  font-weight: 400;
-  background: transparent !important;
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+    padding: 8px 34px 8px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    background: #444 !important;
+    border-radius: 3px;
+    border: 2px solid #444 !important;
 }
 
 #basic-info-name #url {
   border: none;
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 9px;
   margin: 0;
 }
 
@@ -149,8 +150,9 @@ fieldset label#onlyUpdates:after {
 }
 
 #basic-info-name #name:focus {
-	box-shadow: inset 0 0 0 1px #444;
-	background: #222 !important;
+    box-shadow: none;
+    background: transparent !important;
+    color: #EEE !important;
 }
 
 #basic-info-name a:hover::after,
@@ -164,9 +166,26 @@ fieldset label#onlyUpdates:after {
 }
 
 #basic-info-enabled {
-	margin: 20px 0;
+	margin: 20px 0 2px;
 	float: left;
 	width: 100%;
+}
+
+input[type="checkbox"] {
+    font-size: 12px !important;
+}
+
+input[type="checkbox"]:checked::before {
+    color: #25F0ED !important;
+    font-size: 12px !important;
+}
+
+input[type="checkbox"]:checked {
+    border-color:rgba(37, 240, 237, .2) !important;
+}
+
+input[type=checkbox]:after {
+	background: #25F0ED !important;
 }
 
 .style-name a {
@@ -225,24 +244,38 @@ img[src="images/help.png"]:hover {
 	width: 100%;
 }
 
+#actions > div > a {
+    margin: 0;
+    border: none;
+}
+
+#actions > div > a {
+    width: 32% !important;
+}
+
 button,
 span#update-history svg {
 	cursor: default;
-	background: #333333;
+    color: #DFAF8F;
+    background: transparent !important;
 	padding: 10px 15px;
 	text-align: center;
-	border: 1px solid rgba(255, 255, 255, 0.1) !important;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+	border: 2px solid rgba(223, 175, 143, .35);
+	box-shadow: none;
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
 	overflow: hidden;
 	outline: transparent !important;
+    border-radius: 3px;
+    line-height: initial !important;
 }
 
 button:hover,
-span#update-history svg:hover {
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.18);
+span#update-history svg:hover,
+.edit-actions button:hover {
+	background-color: #4E4540 !important;
+	border-color: rgba(223, 175, 143, .35);
 }
 
 #actions button {
@@ -254,6 +287,10 @@ span#update-history svg:hover {
 	margin-right: 0 !important;
 }
 
+#actions #cancel-button {
+    width: 100% !important;
+}
+
 #save-button,
 #beautify,
 #cancel-button {
@@ -262,11 +299,22 @@ span#update-history svg:hover {
 	font-size: 0 !important;
 	opacity: 1;
 	pointer-events: visible;
+	border: 2px solid rgba(223, 175, 143, .35) ;
+}
+#save-button {
+    border-color: rgba(139, 195, 74, .5);
+}
+body.dirty #save-button {
+    border-color: rgba(244, 67, 54, .5);
+}
+#beautify {
+    border-color: rgba(208, 164, 33, .5);
 }
 
 #from-mozilla,
 #to-mozilla {
 	width: 49%;
+	border: 2px solid rgba(223, 175, 143, .35) !important;
 }
 
 #save-button:before,
@@ -344,7 +392,7 @@ button#apply-all-updates:before,
 }
 
 #save-button:hover {
-	background-color: #404b33;
+	background-color: #404b33 !important;
 }
 
 #save-button:after {
@@ -357,7 +405,7 @@ body.dirty #save-button:before {
 }
 
 body.dirty #save-button:hover {
-	background-color: #54312f;
+	background-color: #54312f !important;
 }
 
 body.dirty #save-button:after {
@@ -369,7 +417,7 @@ body.dirty #save-button:after {
 }
 
 #beautify:hover {
-	background-color: #4e452a;
+	background-color: #4e452a !important;
 }
 
 button.remove-applies-to {
@@ -433,6 +481,16 @@ button.add-applies-to:before {
 .actions button.check-update:before,
 .actions button.update:before {
 	margin-right: 0 !important;
+}
+
+a.svg-inline-wrapper {
+    border: none !important;
+}
+.svg-icon {
+    fill: #666;
+}
+.svg-icon:hover, .svg-icon.info:hover, .svg-icon.settings:hover {
+    fill: #25F0ED;
 }
 
 #stylish-popup .bottom_controls .manage_styles:before, #stylish-popup .bottom_controls .add_style:before {
@@ -733,13 +791,14 @@ input[type=checkbox]:focus {
 }
 
 input {
-	background: #222;
-	border: none !important;
 	color: #BBB !important;
 	padding: 10px 12px;
 	font-size: 13px;
 	outline: transparent !important;
-	box-shadow: inset 0 0 0 50px #444, 0 1px 8px 1px rgba(0, 0, 0, 0.1);
+	background: #444 !important;
+	border-radius: 3px;
+	border: 2px solid #444 !important;
+	box-shadow: none;
 	box-sizing: border-box;
 }
 
@@ -748,9 +807,14 @@ input.applies-value {
 }
 
 input:focus {
-	color: #ccc;
-	box-shadow: inset 0 0 0 1px #444;
-	background: #222 !important;
+    box-shadow: none;
+    background: transparent !important;
+    color: #EEE !important;
+}
+
+input.applies-value {
+    padding: 4px 6px !important;
+    height: auto !important;
 }
 
 input::-webkit-input-placeholder {
@@ -803,12 +867,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 #sections {
 	margin: 0;
-	padding-left: 309px;
+	padding-left: 270px;
 }
 
 #sections > div {
 	margin: 0;
-	padding: 0 12px 30px 0;
+	padding: 20px 20px 30px 0;
 }
 
 #sections > div:not(:first-of-type) {
@@ -827,6 +891,7 @@ input[type=number]::-webkit-outer-spin-button {
 	border-bottom: none;
 	min-width: 47px !important;
 	text-align: center;
+    border-radius: 3px 3px 0 0;
 }
 
 .dirty > label::before {
@@ -962,6 +1027,7 @@ span#issue-count {
 	height: 70%;
 	outline: transparent !important;
 	border: 1px solid #444 !important;
+    border-radius: 0 3px 3px 3px;
 }
 
 .CodeMirror span {
@@ -1073,7 +1139,7 @@ span#issue-count {
 }
 
 .resize-grip {
-	background: linear-gradient(-45deg, transparent 2px, #444 2px, transparent 3px, transparent 4.5px, #444 5px, transparent 5.5px);
+    background: linear-gradient(-45deg, #252525 2px, #444 2px, #252525 3px, #252525 4.5px, #444 5px, #252525 5.5px);
 }
 
 /* Manage */
@@ -1436,7 +1502,6 @@ span#issue-count {
 	}
 
 	#header h1:before {
-		font-size: 56px !important;
 		margin: 10px 0 15px 0;
 	}
 
@@ -1488,9 +1553,9 @@ span#issue-count {
 		font-size: 12px;
 	}
 
-		#sections {
-				padding-left: 246px;
-		}
+    #sections {
+        padding-left: 246px;
+    }
 
 }
 
@@ -1511,7 +1576,6 @@ span#issue-count {
 	}
 
 	#header h1:before {
-		font-size: 64px !important;
 		margin: 10px 0 20px 0;
 	}
 
@@ -1564,7 +1628,7 @@ span#issue-count {
 	}
 
 	#sections {
-		padding-left: 309px;
+		padding-left: 270px;
 	}
 
 }

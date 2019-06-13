@@ -13,10 +13,12 @@ css/raw/global.min.css
 css/raw/stylish.min.css
 css/raw/stylus.min.css
 css/raw/syntax.min.css
+css/raw/fonts.min.css
 css/compressed/global.css
 css/compressed/stylish.css
 css/compressed/stylus.css
 css/compressed/syntax.css
+css/compressed/fonts.css
 *.sublime-project
 *.sublime-workspace
 *.dat
