@@ -1,0 +1,41 @@
+/* ICONS */
+
+fieldset label:after { content: '\f078'; }
+#basic-info-name a::after, .style-name a::after { content: '\f0c1'; } /* alt: 'f05a', 'f0c1' */
+#save-button:before { content: '\f0c7'; }
+#beautify:before, button.beautify-section:before { content: '\f13c'; }
+#cancel-button:before { content: '\f03a'; } /* alt: 'f022', 'f0ca' */
+#from-mozilla:before { content: '\f093'; }
+#to-mozilla:before { content: '\f019'; }
+button.remove-applies-to:before { content: '\f068'; }
+button.add-applies-to:before { content: '\f067'; }
+button.remove-section:before { content: '\f068'; }
+button.add-section:before { content: '\f067'; }
+button#check-all-updates:before { content: '\f021'; }
+button#add-style-label:before { content: '\f1c9'; }
+button#apply-all-updates:before { content: '\f00c'; }
+button#file-all-styles:before { content: '\f0ed'; }
+button#unfile-all-styles:before { content: '\f0ee'; }
+.actions .style-edit-link button:before { content: '\f040'; }
+.actions button.enable:before { content: '\f011'; }
+.actions button.disable:before { content: '\f05e'; }
+.actions button.delete:before { content: '\f014'; }
+.actions button.check-update:before { content: '\f021'; }
+.actions button.update:before { content: '\f062'; }
+#popup-options button#popup-manage-button:before { content: '\f0c9'; }
+#popup-options button#popup-options-button:before, #stylus-manage button#manage-options-button:before { content: '\f1de'; }
+#popup-options button#popup-shortcuts-button:before, #stylus-manage button#manage-shortcuts-button:before { content: '\f11c'; }
+#stylus-manage #find-editor-styles button:before { content: '\f1fc'; }
+#stylish-popup .bottom_controls .manage_styles:before { content: '\f0c9'; }
+#stylish-popup .bottom_controls .add_style:before { content: '\f1c9'; }
+#stylish-popup .thumbnail-mask a.thumbnail_edit:before { content: '\f040'; }
+#stylish-popup .thumbnail-mask a.thumbnail_activate:before { content: '\f011'; }
+#stylish-popup .thumbnail-mask a.thumbnail_deactivate:before { content: '\f05e'; }
+#stylish-popup .thumbnail-mask a.thumbnail_delete:before { content: '\f014'; }
+input[type=checkbox]:checked:before { content: '\f00c'; }
+
+fieldset label:after, #basic-info-name a::after, .style-name a::after, #save-button:before, #cancel-button:before, #from-mozilla:before, #to-mozilla:before, button.add-applies-to:before, button.remove-section:before, button.add-section:before, button#check-all-updates:before, button#add-style-label:before, button#apply-all-updates:before, button#file-all-styles:before, button#unfile-all-styles:before, .actions .style-edit-link button:before, .actions button.enable:before, .actions button.disable:before, .actions button.delete:before, .actions button.check-update:before, .actions button.update:before, #popup-options button#popup-manage-button:before, #popup-options button#popup-options-button:before, #stylus-manage button#manage-options-button:before, #popup-options button#popup-shortcuts-button:before, #stylus-manage button#manage-shortcuts-button:before, #stylus-manage #find-editor-styles button:before, #stylish-popup .bottom_controls .manage_styles:before, #stylish-popup .bottom_controls .add_style:before, #stylish-popup .thumbnail-mask a.thumbnail_edit:before, #stylish-popup .thumbnail-mask a.thumbnail_activate:before, #stylish-popup .thumbnail-mask a.thumbnail_deactivate:before, #stylish-popup .thumbnail-mask a.thumbnail_delete:before, input[type=checkbox]:checked:before { font-weight: 900; }
+
+/* KILL SVG */
+
+.svg-icon.checked, #basic-info-name .svg-icon { display: none !important; }

@@ -2,10 +2,6 @@
 =          STYLUS STYLES          =
 =================================*/
 
-/* LOAD FONTS */
-
-@font-face{font-family:'Ubuntu';font-style:normal;font-weight:300;src:local('Ubuntu Light'),local('Ubuntu-Light'),url(https://fonts.gstatic.com/s/ubuntu/v9/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:400;src:local('Ubuntu'),url(https://fonts.gstatic.com/s/ubuntu/v9/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:500;src:local('Ubuntu Medium'),local('Ubuntu-Medium'),url(https://fonts.gstatic.com/s/ubuntu/v9/OsJ2DjdpjqFRVUSto6IffFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}@font-face{font-family:'Ubuntu';font-style:normal;font-weight:700;src:local('Ubuntu Bold'),local('Ubuntu-Bold'),url(https://fonts.gstatic.com/s/ubuntu/v9/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2')}
-
 a:hover,
 a:active {
 	border-bottom-color: #25F0ED;
@@ -33,7 +29,8 @@ a:active {
 
 #basic-info-name a:hover::after,
 .style-name a:hover::after {
-	color: #DFAF8F;
+	color: #dfaf8f;
+  border-color: #dfaf8f;
 }
 
 input[type=checkbox]:after {

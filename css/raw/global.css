@@ -1,37 +1,5 @@
-/*=============================================
-=          NeuDark - [Stylish/Stylus]         =
-=============================================*/
-/*
+/* READY, SET, GO!*/
 
-		NeuDark is an eye-saver modification of the Stylish and Stylus Admin interface for Chrome. The interface is completely redesigned for a dark experience, incorporating Font Awesome icons and a semi-material theme. NeuDark currently supports all of the dark syntax themes shipped with both platforms and will support light-to-dark theme conversions in the future.
-
-*/
-
-/*=================================
-=          GLOBAL STYLES          =
-=================================*/
-
-/* LOAD FONTS */
-
-@font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
-
-@font-face{font-family:'Open Sans';font-style:normal;font-weight:300;src:local('Open Sans Light'),local('OpenSans-Light'),url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:600;src:local('Open Sans Semibold'),local('OpenSans-Semibold'),url(https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}@font-face{font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2')}
-
-@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:400;src:local('Source Code Pro'),local('SourceCodePro-Regular'),url(https://fonts.gstatic.com/s/sourcecodepro/v6/mrl8jkM18OlOQN8JLgasD9V_2ngZ8dMf8fLgjYEouxg.woff2) format('woff2')}@font-face{font-family:'Source Code Pro';font-style:normal;font-weight:500;src:local('Source Code Pro Medium'),local('SourceCodePro-Medium'),url(https://fonts.gstatic.com/s/sourcecodepro/v6/leqv3v-yTsJNC7nFznSMqUHj7CJK1I4bLnYZkMY-kd4.woff2) format('woff2')}
-
-body, button, span#update-history svg, #stylus-manage #search, #stylish-manage #search, #basic-info-name #name {
-	font-family: 'Open Sans', Helvetica, sans-serif;
-}
-
-fieldset label:after, #basic-info-name a::after, .style-name a::after, #save-button:before, #beautify:before, #cancel-button:before, #from-mozilla:before, #to-mozilla:before, button.remove-applies-to:before, button.add-applies-to:before, button.remove-section:before, button.add-section:before, button.beautify-section:before, button#check-all-updates:before, button#add-style-label:before, button#apply-all-updates:before, button#file-all-styles:before, button#unfile-all-styles:before, .actions .style-edit-link button:before, .actions button.enable:before, .actions button.disable:before, .actions button.delete:before, .actions button.check-update:before, .actions button.update:before, #stylus-manage #options button:before, #popup-options button:before, #stylish-popup .bottom_controls a:before, #stylish-popup .thumbnail-mask a:before, input[type=checkbox]:checked:before, .CodeMirror-lint-marker-warning:before, .CodeMirror-lint-message-warning:before, .CodeMirror-lint-marker-error:before, .CodeMirror-lint-message-error:before, .CodeMirror-lint-marker-multiple:before {
-	font-family: 'FontAwesome';
-}
-
-.CodeMirror, .CodeMirror-lint-tooltip {
-	font-family: 'Source Code Pro', monospace, sans-serif;
-}
-
-/* MAIN */
 body {
 	background: #2d2d2d;
 	color: #ccc;
@@ -50,10 +18,10 @@ a:hover, a:active {
 }
 
 a:link, a:visited, #header h1, #header h1:before, #basic-info-name #name, img[src="help.png"], img[src="images/help.png"], #basic-info-name a::after, .style-name a::after, button, span#update-history svg, input[type=checkbox], input[type=checkbox]:checked:before, .option.aligned select, .applies-to-list select, input, #lint tr {
-	-moz-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
-	-o-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
-	-webkit-transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
-	transition: all 0.3s cubic-bezier(.25, .5, .25, 1);
+	-moz-transition: all 0.3s cubic-bezier(.25, .5, .25, 1) !important;
+	-o-transition: all 0.3s cubic-bezier(.25, .5, .25, 1) !important;
+	-webkit-transition: all 0.3s cubic-bezier(.25, .5, .25, 1) !important;
+	transition: all 0.3s cubic-bezier(.25, .5, .25, 1) !important;
 }
 
 #header {
@@ -119,11 +87,9 @@ fieldset label span {
 }
 
 fieldset label:after {
-	content: '\f078';
 	font-size: 12px;
 	width: 24px;
 	text-align: right;
-	font-weight: normal;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -152,15 +118,34 @@ fieldset label#onlyUpdates:after {
 #basic-info-name {
 	display: flex;
 	align-items: center;
+  position: relative;
 }
 
 #basic-info-name #name {
-	width: 100%;
-	box-shadow: inset 0 0 0 50px #444, 0 1px 8px 1px rgba(0, 0, 0, 0.1);
-	padding: 10px 34px 10px 10px;
-	font-size: 19px;
-	font-weight: 300;
-	background: transparent !important;
+  width: 100%;
+  height: auto;
+  box-shadow: inset 0 0 0 50px #444, 0 1px 5px 1px rgba(0, 0, 0, 0.15);
+  padding: 8px 34px 8px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent !important;
+}
+
+#basic-info-name #url {
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  margin: 0;
+}
+
+#basic-info-name a::after,
+.style-name a::after {
+  font-size: 18px;
+  text-align: center;
+  color: #777;
+  padding: 6px 8px;
+  border-radius: 0;
 }
 
 #basic-info-name #name:focus {
@@ -168,9 +153,24 @@ fieldset label#onlyUpdates:after {
 	background: #222 !important;
 }
 
+#basic-info-name a:hover::after,
+.style-name a:hover::after {
+  color: #dfaf8f;
+}
+
 #basic-info-name a img,
 .style-name a img {
 	display: none;
+}
+
+#basic-info-enabled {
+	margin: 20px 0;
+	float: left;
+	width: 100%;
+}
+
+.style-name a {
+	border: none;
 }
 
 img[src="help.png"],
@@ -215,34 +215,6 @@ img#keyMap-help {
 img[src="help.png"]:hover,
 img[src="images/help.png"]:hover {
 	cursor: pointer;
-}
-
-#basic-info-name #url {
-	margin-left: 0;
-	border: none;
-	position: absolute;
-	right: 30px;
-}
-
-.style-name a {
-	border: none;
-}
-
-#basic-info-name a::after,
-.style-name a::after {
-	content: '\f05a';
-	font-size: 24px;
-	width: 24px;
-	text-align: center;
-	display: inline-block;
-	color: #666666;
-	font-weight: normal;
-}
-
-#basic-info-enabled {
-	margin: 20px 0;
-	float: left;
-	width: 100%;
 }
 
 #actions > * {
@@ -367,12 +339,7 @@ button#apply-all-updates:before,
 	height: 16px;
 }
 
-#save-button:before {
-	content: '\f0c7';
-	color: #8bc34a;
-}
-
-#save-button {
+#save-button:before, #save-button {
 	color: #8bc34a;
 }
 
@@ -397,29 +364,12 @@ body.dirty #save-button:after {
 	content: '?';
 }
 
-#beautify {
+#beautify:before, #beautify {
 	color: #d0a421;
 }
 
 #beautify:hover {
 	background-color: #4e452a;
-}
-
-#beautify:before {
-	content: '\f13c';
-	color: #d0a421;
-}
-
-#cancel-button:before {
-	content: '\f0c9';
-}
-
-#from-mozilla:before {
-	content: '\f093';
-}
-
-#to-mozilla:before {
-	content: '\f019';
 }
 
 button.remove-applies-to {
@@ -432,7 +382,6 @@ button.remove-applies-to:hover {
 }
 
 button.remove-applies-to:before {
-	content: '\f068';
 	color: #F44336;
 	margin-right: 0 !important;
 	text-align: center !important;
@@ -448,54 +397,12 @@ button.add-applies-to:hover {
 }
 
 button.add-applies-to:before {
-	content: '\f067';
 	color: #8bc34a;
 	margin-right: 0 !important;
 	text-align: center !important;
 }
 
-button.remove-section:before {
-	content: '\f068';
-}
-
-button.add-section:before {
-	content: '\f067';
-}
-
-button.beautify-section:before {
-	content: '\f13c';
-}
-
-button#check-all-updates:before {
-	content: '\f021';
-}
-
-button#add-style-label:before {
-	content: '\f1c9';
-}
-
-button#apply-all-updates:before {
-	content: '\f00c';
-}
-
-button#file-all-styles:before {
-	content: '\f0ed';
-}
-
-button#unfile-all-styles:before {
-	content: '\f0ee';
-}
-
-.actions .style-edit-link button:before {
-	content: '\f040';
-}
-
-.actions button.enable:before {
-	content: '\f011';
-}
-
 .actions button.disable:before {
-	content: '\f05e';
 	color: #d0a421;
 }
 
@@ -504,7 +411,6 @@ button#unfile-all-styles:before {
 }
 
 .actions button.delete:before {
-	content: '\f014';
 	color: #F44336;
 }
 
@@ -512,12 +418,7 @@ button#unfile-all-styles:before {
 	background-color: #54312f;
 }
 
-.actions button.check-update:before {
-	content: '\f021';
-}
-
 .actions button.update:before {
-	content: '\f062';
 	color: #8bc34a;
 }
 
@@ -534,48 +435,8 @@ button#unfile-all-styles:before {
 	margin-right: 0 !important;
 }
 
-#popup-options button#popup-manage-button:before {
-	content: '\f0c9';
-}
-
-#popup-options button#popup-options-button:before,
-#stylus-manage button#manage-options-button:before {
-	content: '\f1de';
-}
-
-#popup-options button#popup-shortcuts-button:before,
-#stylus-manage button#manage-shortcuts-button:before {
-	content: '\f11c';
-}
-
-#stylus-manage #find-editor-styles button:before {
-	content: '\f1fc';
-}
-
-#stylish-popup .bottom_controls .manage_styles:before {
-	content: '\f0c9';
+#stylish-popup .bottom_controls .manage_styles:before, #stylish-popup .bottom_controls .add_style:before {
 	color: #D2BB8D;
-}
-
-#stylish-popup .bottom_controls .add_style:before {
-	content: '\f1c9';
-	color: #D2BB8D;
-}
-
-#stylish-popup .thumbnail-mask a.thumbnail_edit:before {
-	content: '\f040';
-}
-
-#stylish-popup .thumbnail-mask a.thumbnail_activate:before {
-	content: '\f011';
-}
-
-#stylish-popup .thumbnail-mask a.thumbnail_deactivate:before {
-	content: '\f05e';
-}
-
-#stylish-popup .thumbnail-mask a.thumbnail_delete:before {
-	content: '\f014';
 }
 
 #stylish-popup .thumbnail-mask a.thumbnail_feedback:before {
@@ -648,22 +509,22 @@ button#unfile-all-styles:before {
 }
 
 input[type=checkbox] {
-	-webkit-appearance: none;
-	position: relative;
-	background-color: #2d2d2d;
-	border-radius: 100%;
-	color: #fff;
-	cursor: auto;
-	display: block;
-	margin: 0 5px 0 0 !important;
-	padding: 0;
-	outline: transparent !important;
-	width: 20px;
-	height: 20px;
-	float: left;
-	clear: both;
-	border: 2px solid #444;
-	box-shadow: none !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+  position: relative !important;
+  background-color: #2d2d2d !important;
+  border-radius: 100% !important;
+  color: #fff;
+  cursor: auto;
+  margin: 0 5px 0 0 !important;
+  padding: 1px 0 0 2px;
+  outline: transparent !important;
+  width: 18px !important;
+  height: 18px !important;
+  float: left;
+  clear: both;
+  border: 2px solid #444 !important;
+  box-shadow: none !important;
 }
 
 input[type=checkbox]:after {
@@ -672,10 +533,10 @@ input[type=checkbox]:after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 48px;
-	height: 48px;
-	margin-left: -16px;
-	margin-top: -16px;
+	width: 47px;
+	height: 47px;
+	margin-left: -17px;
+	margin-top: -17px;
 	border-radius: 100%;
 	opacity: .2;
 	transform: scale(0);
@@ -713,17 +574,14 @@ input[type=checkbox]:after {
 
 input[type=checkbox]:checked {
 	border: 2px solid transparent;
-	color: #2d2d2d;
+  background-color: #2d2d2d;
 }
 
 input[type=checkbox]:checked:before {
-	color: #2d2d2d;
-	content: '\f00c';
-	font-size: 16px;
+	font-size: 11px;
 	line-height: 1;
 	margin: 0;
 	text-align: center;
-	font-weight: 200;
 }
 
 input[type=checkbox]:checked:after {
@@ -776,12 +634,20 @@ input[type=checkbox]:focus {
 }
 
 #enabled-label,
+#preview-label,
 .option label {
 	padding: 0;
 	float: left;
 	display: block;
-	line-height: 22px;
+	line-height: 20px;
 	color: #CCC;
+}
+
+#enabled-label, #preview-label {
+  /* width: 50%; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10px;
 }
 
 .option.aligned {
@@ -868,8 +734,8 @@ input[type=checkbox]:focus {
 
 input {
 	background: #222;
-	border: none;
-	color: #999;
+	border: none !important;
+	color: #BBB !important;
 	padding: 10px 12px;
 	font-size: 13px;
 	outline: transparent !important;
