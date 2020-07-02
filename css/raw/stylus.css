@@ -4,56 +4,33 @@
 
 a:hover,
 a:active {
-	border-bottom-color: #25F0ED;
+	border-bottom-color: #28FFFF;
 }
 
-#header h1 {
-	color: #DFAF8F;
-}
-
-#header h1:before {
-    background-image: url('/images/icon/128.png');
-    background-size: 48px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    height: 48px;
-    content: '';
-    transform: scale(1.3);
-}
-
-img[src="help.png"]:hover,
+/* img[src="help.png"]:hover,
 img[src="images/help.png"]:hover {
 	background-color: #dfaf8f !important;
-}
+} */
 
 #sections > div > label {
-	color: #25F0ED;
-}
-
-#newUIoptions input[type="number"]:hover,
-#newUIoptions input[type="number"]:focus,
-.option.aligned input:hover,
-.option.aligned input:focus,
-.option.aligned select:hover,
-.applies-to-list select:hover {
-	color: #25F0ED !important;
+	color: #28FFFF;
 }
 
 #help-popup .title {
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 .CodeMirror-dialog-top {
-	border-color: #25F0ED;
+	border-color: #28FFFF;
 }
 
 .CodeMirror-dialog input {
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 @-moz-keyframes highlight {
 	from {
-		background-color: #25F0ED;
+		background-color: #28FFFF;
 	}
 	to {
 		background-color: inherit;
@@ -62,7 +39,7 @@ img[src="images/help.png"]:hover {
 
 @-o-keyframes highlight {
 	from {
-		background-color: #25F0ED;
+		background-color: #28FFFF;
 	}
 	to {
 		background-color: inherit;
@@ -71,7 +48,7 @@ img[src="images/help.png"]:hover {
 
 @-webkit-keyframes highlight {
 	from {
-		background-color: #25F0ED;
+		background-color: #28FFFF;
 	}
 	to {
 		background-color: inherit;
@@ -80,7 +57,7 @@ img[src="images/help.png"]:hover {
 
 @keyframes highlight {
 	from {
-		background-color: #25F0ED;
+		background-color: #28FFFF;
 	}
 	to {
 		background-color: inherit;
@@ -90,11 +67,11 @@ img[src="images/help.png"]:hover {
 .cm-searching {
 	background: rgba(37, 240, 237, 0.25) !important;
 	border: 1px solid rgba(37, 240, 237, 0.5);
-	color: #25F0ED !important;
+	color: #28FFFF !important;
 }
 
 .CodeMirror-search-match {
-	background: #25F0ED;
+	background: #28FFFF;
 }
 
 /*-------- default syntax theme --------*/
@@ -120,7 +97,7 @@ img[src="images/help.png"]:hover {
 }
 
 .cm-s-default .cm-atom {
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 .cm-s-default .cm-keyword {
@@ -163,11 +140,11 @@ img[src="images/help.png"]:hover {
 
 /* Manage */
 #filters.active {
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 #stylus-manage #installed div.enabled h2.style-name {
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 #stylus-manage #installed div.disabled h2.style-name {
@@ -222,7 +199,7 @@ img[src="images/help.png"]:hover {
 	width: 100%;
 	font-size: 16px;
 	font-weight: 400;
-	color: #25F0ED;
+	color: #28FFFF;
 }
 
 #stylus-popup #confirm input {
@@ -367,21 +344,3 @@ img[src="images/help.png"]:hover {
 	margin-right: 0 !important;
 }
 
-@media only screen and (max-width:350px) {
-
-	#popup-options button {
-		font-size: 0;
-	}
-
-}
-
-@media only screen and (min-width:351px) {
-
-	#popup-options button {
-		font-size: inherit;
-	}
-	#popup-options button:before {
-		display: none;
-	}
-
-}

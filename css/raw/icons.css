@@ -1,9 +1,11 @@
 /* ICONS */
 
+fieldset label:after, #basic-info-name a::after, .style-name a::after, #save-button:before, #cancel-button:before, #beautify:before, button.beautify-section:before, #from-mozilla:before, #to-mozilla:before, button.add-applies-to:before, button.remove-section:before, button.add-section:before, button#check-all-updates:before, button#add-style-label:before, button#apply-all-updates:before, button#file-all-styles:before, button#unfile-all-styles:before, .actions .style-edit-link button:before, .actions button.enable:before, .actions button.disable:before, .actions button.delete:before, .actions button.check-update:before, .actions button.update:before, #popup-options button#popup-manage-button:before, #popup-options button#popup-options-button:before, #stylus-manage button#manage-options-button:before, #popup-options button#popup-shortcuts-button:before, #stylus-manage button#manage-shortcuts-button:before, #stylus-manage #find-editor-styles button:before, #stylish-popup .bottom_controls .manage_styles:before, #stylish-popup .bottom_controls .add_style:before, #stylish-popup .thumbnail-mask a.thumbnail_edit:before, #stylish-popup .thumbnail-mask a.thumbnail_activate:before, #stylish-popup .thumbnail-mask a.thumbnail_deactivate:before, #stylish-popup .thumbnail-mask a.thumbnail_delete:before, input[type=checkbox]:checked:before { font-weight: 900; }
+
 fieldset label:after { content: '\f078'; }
 #basic-info-name a::after, .style-name a::after { content: '\f0c1'; } /* alt: 'f05a', 'f0c1' */
-#save-button:before { content: '\f0c7'; }
-#beautify:before, button.beautify-section:before { content: '\f13c'; }
+#save-button:before { content: '\f0c7'; font-weight: 400 !important; }
+#beautify:before, button.beautify-section:before { content: '\f121'; }
 #cancel-button:before { content: '\f03a'; } /* alt: 'f022', 'f0ca' */
 #from-mozilla:before { content: '\f093'; }
 #to-mozilla:before { content: '\f019'; }
@@ -33,8 +35,6 @@ button#unfile-all-styles:before { content: '\f0ee'; }
 #stylish-popup .thumbnail-mask a.thumbnail_deactivate:before { content: '\f05e'; }
 #stylish-popup .thumbnail-mask a.thumbnail_delete:before { content: '\f014'; }
 input[type=checkbox]:checked:before { content: '\f00c'; }
-
-fieldset label:after, #basic-info-name a::after, .style-name a::after, #save-button:before, #cancel-button:before, #from-mozilla:before, #to-mozilla:before, button.add-applies-to:before, button.remove-section:before, button.add-section:before, button#check-all-updates:before, button#add-style-label:before, button#apply-all-updates:before, button#file-all-styles:before, button#unfile-all-styles:before, .actions .style-edit-link button:before, .actions button.enable:before, .actions button.disable:before, .actions button.delete:before, .actions button.check-update:before, .actions button.update:before, #popup-options button#popup-manage-button:before, #popup-options button#popup-options-button:before, #stylus-manage button#manage-options-button:before, #popup-options button#popup-shortcuts-button:before, #stylus-manage button#manage-shortcuts-button:before, #stylus-manage #find-editor-styles button:before, #stylish-popup .bottom_controls .manage_styles:before, #stylish-popup .bottom_controls .add_style:before, #stylish-popup .thumbnail-mask a.thumbnail_edit:before, #stylish-popup .thumbnail-mask a.thumbnail_activate:before, #stylish-popup .thumbnail-mask a.thumbnail_deactivate:before, #stylish-popup .thumbnail-mask a.thumbnail_delete:before, input[type=checkbox]:checked:before { font-weight: 900; }
 
 /* KILL SVG */
 
